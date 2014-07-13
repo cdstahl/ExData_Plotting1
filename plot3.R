@@ -74,6 +74,11 @@ legend("topright",
 # close png graphics driver
 dev.off()
 
+# I'm not sure what this plot intends to show.  The units on the y-axis are
+# in energy (kWh is power*time), the x-axis is in time.  The area under the
+# curves would be in energy*time.  
+#
+# As a plot of energy over time, the interpretation becomes humorous.  Notice
+# that the plot is not monotonic.  This implies the house regularly produces
+# power to exactly offset what it just used.
 
-# I'm finding it hard to believe these are in Watt-Hours.  This must be a very
-# energy efficient house!
